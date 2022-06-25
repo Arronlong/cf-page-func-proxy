@@ -3,7 +3,7 @@ export default {
       let url = new URL(request.url);
       if (url.pathname.startsWith('/')) {
         //url.hostname="google.com";
-        url.hostname="v2-railway.arron.workers.dev" ;
+        url.hostname="bing.com" ;
         let new_request=new Request(url,request);
         return fetch(new_request);
       }
